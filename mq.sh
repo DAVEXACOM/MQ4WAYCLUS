@@ -26,6 +26,10 @@ echo "----------------------------------------"
 mq-pre-create-setup.sh
 echo "----------------------------------------"
 source mq-create-qmgr.sh
+# do this is a nice obvious place for now - enable client authorized connection
+  useradd davearno -G mqm && \
+    echo davearno:passw0rd | chpasswd
+
 echo "----------------------------------------"
 source mq-start-qmgr.sh
 echo "----------------------------------------"
