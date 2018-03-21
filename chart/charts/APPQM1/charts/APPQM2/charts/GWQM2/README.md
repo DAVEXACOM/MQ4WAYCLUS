@@ -4,7 +4,7 @@ IBM® MQ is messaging middleware that simplifies and accelerates the integration
 
 # Introduction
 
-This chart deploys a single IBM MQ Advanced for Developers server (queue manager) into an IBM Cloud private or other Kubernetes environment.
+This chart deploys a single IBM MQ Advanced for Developers server (queue manager) into an IBM Cloud private or other Kubernetes environment .
 
 ## Prerequisites
 
